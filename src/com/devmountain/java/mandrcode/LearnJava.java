@@ -1,5 +1,7 @@
 package com.devmountain.java.mandrcode;
 
+import java.util.ArrayList;
+
 public class LearnJava {
 
     public static void main(String[] args) {
@@ -24,7 +26,25 @@ public class LearnJava {
         System.out.println(name.toUpperCase());
         System.out.println(name.toLowerCase());
 
+        //
+        ArrayList<Integer> a123 =new ArrayList<Integer>();
+        //a is a way to name the object so it is easier to perform methods on this specified object
+        //a. then select function of your choice
 
+
+        //while if and for loops, iterations are same as in javascript
+
+        //try catch
+
+        //API
+        //step one download jar file
+        //add external jar to file
+        //import statement into java file
+
+
+
+        Animal animale =  new Animal();
+        animale.sayHi();
     }
 
     public static void addExclamationPoint(String s){
